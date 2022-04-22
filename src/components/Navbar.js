@@ -22,14 +22,7 @@ const Navbar = () => {
                   href="#"
                   className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
-                  Dashboard
-                </a>
-
-                <a
-                  href="#"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                >
-                  Team
+                  Nacho Sala
                 </a>
 
                 <a
@@ -43,14 +36,14 @@ const Navbar = () => {
                   href="#"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
-                  Calendar
+                  About
                 </a>
 
                 <a
                   href="#"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
-                  Reports
+                  Contact
                 </a>
               </div>
             </div>
@@ -118,14 +111,7 @@ const Navbar = () => {
                 href="#"
                 className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
               >
-                Dashboard
-              </a>
-
-              <a
-                href="#"
-                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-              >
-                Team
+                Nacho Sala
               </a>
 
               <a
@@ -139,14 +125,14 @@ const Navbar = () => {
                 href="#"
                 className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               >
-                Calendar
+                About
               </a>
 
               <a
                 href="#"
                 className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               >
-                Reports
+                Contact
               </a>
             </div>
           </div>
