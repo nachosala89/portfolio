@@ -1,43 +1,46 @@
 import React from "react";
+import photo from "../img/cutted-photo.png";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faGithub, faAngellist, faTwitter, faMedium } from '@fortawesome/free-brands-svg-icons';
 
 const Header = () => {
   return (
-    <header>
+    <header className="container mx-auto px-20 grid grid-cols-2">
       <div>
-        <ul class="">
-          <li>
+        <div>
+          <h2 className="poppins">I'm Full-Stack Software Engineer</h2>
+          <h1 className="poppins text-7xl">Nacho Sala</h1>
+        </div>
+        <ul className="flex text-xl">
+          <li className="p-3">
             <a href="https://github.com/nachosala89">
-              <img src="./images/social-links/github.png" alt="Github" />
+            <FontAwesomeIcon icon={faGithub} />
             </a>
           </li>
-          <li>
+          <li className="p-3">
             <a href="https://www.linkedin.com/in/nacho-sala">
-              <img src="./images/social-links/linkedin.png" alt="LinkedIn" />
+            <FontAwesomeIcon icon={faLinkedin} />
             </a>
           </li>
-          <li>
+          <li className="p-3">
             <a href="https://angel.co/u/nacho-sala">
-              <img src="./images/social-links/angelist.png" alt="AngelList" />
+            <FontAwesomeIcon icon={faAngellist} />
             </a>
           </li>
-          <li>
+          <li className="p-3">
             <a href="https://twitter.com/nachosala89">
-              <img src="./images/social-links/twitter.png" alt="Twitter" />
+            <FontAwesomeIcon icon={faTwitter} />
             </a>
           </li>
-          <li>
+          <li className="p-3">
             <a href="https://medium.com/@nachosala89">
-              <img src="./images/social-links/medium.png" alt="Medium" />
+            <FontAwesomeIcon icon={faMedium} />
             </a>
           </li>
         </ul>
       </div>
       <div>
-        <h2>Full-stack Software Engineer</h2>
-        <h1>I'm Nacho Sala</h1>
-      </div>
-      <div>
-        <img src="https://picsum.photos/1000" alt="Nacho Sala" />
+        <img src={photo} alt="Nacho Sala" />
       </div>
     </header>
   );
