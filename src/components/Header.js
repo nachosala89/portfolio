@@ -6,12 +6,12 @@ import { faLinkedin, faGithub, faAngellist, faTwitter, faMedium } from '@fortawe
 const Header = () => {
   return (
     <header className="container mx-auto px-20 grid grid-cols-2">
-      <div>
+      <div className="flex flex-col justify-center">
         <div>
-          <h2 className="poppins">I'm Full-Stack Software Engineer</h2>
-          <h1 className="poppins text-7xl">Nacho Sala</h1>
+          <h2 className="poppins text-2xl text-center pb-2">I'm Full-Stack Software Engineer</h2>
+          <h1 className="poppins text-7xl text-center">Nacho Sala</h1>
         </div>
-        <ul className="flex text-xl">
+        <ul className="flex text-xl justify-center">
           <li className="p-3">
             <a href="https://github.com/nachosala89">
             <FontAwesomeIcon icon={faGithub} />
