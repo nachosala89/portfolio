@@ -7,6 +7,11 @@ const Projects = () => {
       <h2>My recent works</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
       </div>
     </section>
   );
