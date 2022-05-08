@@ -40,7 +40,7 @@ const About = () => {
           </ul>
         </div>
         <div className="flex flex-col">
-          <h4 className="text-center">Tools &amp Methods</h4>
+          <h4 className="text-center">Tools & Methods</h4>
           <ul>
             <li className="text-center">Git</li>
             <li className="text-center">GitHub</li>
