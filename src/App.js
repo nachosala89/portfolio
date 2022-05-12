@@ -1,7 +1,9 @@
 import './App.css';
 import About from './components/About';
+import Contact from './components/Contact';
 import Header from './components/Header';
 import Projects from './components/Projects';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
       <Header />
       <Projects />
       <About />
+      <Contact />
+      <Footer />
     </div>
   );
 }

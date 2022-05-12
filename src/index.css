@@ -56,3 +56,12 @@ code {
 .content-div:hover .fd-sh {
   opacity: 1;
 }
+
+.brand-icon {
+  color: #CCC5B9;
+  height: 20px;
+}
+
+.brand-icon:hover {
+  color: #EB5E28;
+}
