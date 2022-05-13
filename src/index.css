@@ -57,6 +57,12 @@ code {
   opacity: 1;
 }
 
+.footer {
+  background-color: #454B66;
+  color: #500;
+  font-family: 'Roboto Slab', serif;
+}
+
 .brand-icon {
   color: #CCC5B9;
   height: 20px;
