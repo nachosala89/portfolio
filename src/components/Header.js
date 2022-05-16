@@ -5,7 +5,7 @@ import { faLinkedin, faGithub, faAngellist, faTwitter, faMedium } from '@fortawe
 
 const Header = () => {
   return (
-    <header className="grid grid-cols-2">
+    <header className="grid grid-cols-2 grey-ctm">
       <div className="flex flex-col justify-center">
         <div>
           <h2 className="poppins text-2xl text-center pb-2">I'm Full-Stack Software Engineer</h2>

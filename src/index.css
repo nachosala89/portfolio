@@ -71,3 +71,19 @@ code {
 .brand-icon:hover {
   color: #EB5E28;
 }
+
+.orange-bcg {
+  background-color: #EB5E28;
+}
+
+.bordo-bcg {
+  background-color: #500;
+}
+
+.grey-bcg {
+  background-color: #454B66;
+}
+
+.white-bcg {
+  background-color: #CCC5B9;
+}

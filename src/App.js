@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className='container mx-auto px-20'>
+    <div className='container mx-auto px-20 white-bcg'>
       <Header />
       <Projects />
       <About />
