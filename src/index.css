@@ -76,6 +76,10 @@ code {
   background-color: #EB5E28;
 }
 
+.orange-clr {
+  color: #EB5E28;
+}
+
 .bordo-bcg {
   background-color: #500;
 }
@@ -86,4 +90,12 @@ code {
 
 .white-bcg {
   background-color: #CCC5B9;
+}
+
+.navbar-link:hover {
+  color: #EB5E28;
+}
+
+.brand-icon-header:hover {
+  color: #EB5E28;
 }
