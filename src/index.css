@@ -57,11 +57,57 @@ code {
   opacity: 1;
 }
 
+.footer {
+  background-color: #454B66;
+  color: #500;
+  font-family: 'Roboto Slab', serif;
+}
+
 .brand-icon {
   color: #CCC5B9;
   height: 20px;
 }
 
 .brand-icon:hover {
+  color: #EB5E28;
+}
+
+.orange-bcg {
+  background-color: #EB5E28;
+}
+
+.orange-clr {
+  color: #EB5E28;
+}
+
+.bordo-bcg {
+  background-color: #500;
+}
+
+.bordo-clr {
+  color: #500;
+}
+
+.grey-bcg {
+  background-color: #454B66;
+}
+
+.white-bcg {
+  background-color: #CCC5B9;
+}
+
+.white-clr {
+  color: #CCC5B9;
+}
+
+.green-bcg {
+  background-color: #646536;
+}
+
+.navbar-link:hover {
+  color: #EB5E28;
+}
+
+.brand-icon-header:hover {
   color: #EB5E28;
 }
