@@ -84,12 +84,24 @@ code {
   background-color: #500;
 }
 
+.bordo-clr {
+  color: #500;
+}
+
 .grey-bcg {
   background-color: #454B66;
 }
 
 .white-bcg {
   background-color: #CCC5B9;
+}
+
+.white-clr {
+  color: #CCC5B9;
+}
+
+.green-bcg {
+  background-color: #646536;
 }
 
 .navbar-link:hover {
