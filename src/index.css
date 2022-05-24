@@ -29,8 +29,7 @@ code {
   font-family: 'Lobster', cursive;
 }
 
-.content-div{
-  background-image:url('https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80');
+.content-div {
   background-repeat: no-repeat;
   background-size: cover;
   background-position:center;
@@ -39,8 +38,7 @@ code {
 .content-div:hover {
   background-image:
   linear-gradient(to right,
-    rgba(126, 213, 111, 0.801), hsla(160, 64%, 43%, 0.801) ),
-    url('https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80');
+    rgba(126, 213, 111, 0.801), hsla(160, 64%, 43%, 0.801) );
 }
 
 .image-cover {
@@ -110,4 +108,19 @@ code {
 
 .brand-icon-header:hover {
   color: #EB5E28;
+}
+
+.project-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.2;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.project-content {
+  position: relative;
 }
