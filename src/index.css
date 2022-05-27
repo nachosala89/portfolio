@@ -102,6 +102,10 @@ code {
   background-color: #646536;
 }
 
+.soft-green-bcg {
+  background-color: #657153;
+}
+
 .navbar-link:hover {
   color: #EB5E28;
 }
@@ -113,14 +117,20 @@ code {
 .project-image {
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.2;
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
-  z-index: 10;
 }
 
-.project-content {
-  position: relative;
+.project-btn {
+  border: 2px solid #454B66;
+  background-color: #EB5E28;
+  color: #CCC5B9;
 }
+
+.project-btn:hover {
+  background-color: #454B66;
+  color: #EB5E28;
+}
+

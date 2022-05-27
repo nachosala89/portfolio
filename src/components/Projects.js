@@ -8,7 +8,7 @@ const Projects = () => {
       description: 'This app allows the user to reserve a room in a hotel in an easy way.',
       fullDescription: 'This app allows the user to reserve a room in a hotel in an easy way. The API was created with Ruby on Rails and the front-end with React.',
       image: {
-        src: '../img/projects/lodging.png',
+        src: 'https://nachosala.me/my-portfolio/images/projects/lodging.png',
         alt: 'Project image',
       },
       technologies: ['Bootstrap', 'Rails', 'React'],
@@ -34,7 +34,7 @@ const Projects = () => {
       description: 'In this website we worked with real live data from the SpaceX API. Our task was to build a web app for a company that provides commercial and scientific space travel services.',
       fullDescription: 'In this website we worked with real live data from the SpaceX API. Our task was to build a web app for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.',
       image: {
-        src: '../img/projects/space-travelers.png',
+        src: 'https://nachosala.me/my-portfolio/images/projects/space-travelers.png',
         alt: 'Project image',
       },
       technologies: ['JavaScript', 'Bootstrap', 'React'],
@@ -47,7 +47,7 @@ const Projects = () => {
       description: 'Website to display some data about the most important cryptocurrencies in real time.',
       fullDescription: 'Website to display some data about the most important cryptocurrencies in real time. The data is consumed from the API https://docs.coincap.io/. The currencies can be filter by the price change in the last 24 hours or by position in the ranking. The design was based on this template.',
       image: {
-        src: '../img/projects/screenshot-crypto.png',
+        src: 'https://nachosala.me/my-portfolio/images/projects/screenshot-crypto.png',
         alt: 'Project image',
       },
       technologies: ['JavaScript', 'React', 'Bootstrap'],
@@ -60,7 +60,7 @@ const Projects = () => {
       description: 'This app shows the characters of the world-famous series Breaking Bad.',
       fullDescription: 'This app shows the characters of the world-famous series Breaking Bad. It consumes two API: One to get the data about the Breaking Bad characters, and another to access and modify the data about comments and likes for the displayed content.',
       image: {
-        src: 'src/img/projects/breaking-bad.png',
+        src: 'https://nachosala.me/my-portfolio/images/projects/breaking-bad.png',
         alt: 'Project image',
       },
       technologies: ['Bootstrap', 'Javascript'],
@@ -74,24 +74,28 @@ const Projects = () => {
       <h2 className="poppins text-4xl">My recent works</h2>
       <ul className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {projects.map((project) => (
-          <li key={project.id} className="py-4">
-            <div className="project-image h-96 w-full" style={{ backgroundImage: `url("https://nachosala.me/my-portfolio/images/projects/recipes.png")` }} />
-            <div className="project-content">
-              <div className="project-description">
+          <li key={project.id} className="my-4 relative h-96 rounded-2xl group roboto-slab">
+            <div className="project-image h-96 w-full group-hover:opacity-20 rounded-2xl" style={{ backgroundImage: `url(${project.image.src})` }} />
+            <div className="project-content h-3/4 p-4">
+              <div className="flex-col justify-between h-full project-description relative hidden group-hover:flex text-white text-xl">
                 <p>{project.description}</p>
-                <a href={project.linkLive} target="_blank" rel="noreferrer">
-                  <button>Live</button>
-                </a>
-                <a href={project.linkSource} target="_blank" rel="noreferrer">
-                  <button>Source</button>
-                </a>
+                <div className="flex justify-center">
+                  <a href={project.linkLive} target="_blank" rel="noreferrer">
+                    <button className="project-btn px-2 py-1 m-2 rounded-lg">Live</button>
+                  </a>
+                  <a href={project.linkSource} target="_blank" rel="noreferrer">
+                    <button className="project-btn px-2 py-1 m-2 rounded-lg">Source</button>
+                  </a>
+                </div>
               </div>
             </div>
-            <div className="project-header">
-              <h2>{project.name}</h2>
-              <ul>
+            <div className="project-header relative h-1/4 z-20 white-bcg rounded-b-2xl">
+              <h2 className="bordo-clr text-3xl text-center font-bold pt-2">{project.name}</h2>
+              <ul className="flex justify-center mt-2 mx-5">
                 {project.technologies.map((tech) => (
-                  <li key={tech}>{tech}</li>
+                  <li key={tech} className="rounded-lg text-xs text-white soft-green-bcg px-2 py-1 mx-1">
+                    {tech}
+                  </li>
                 ))}
               </ul>
             </div> 

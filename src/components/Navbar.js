@@ -6,7 +6,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   
   return (
-    <nav className="grey-bcg fixed w-full top-0">
+    <nav className="grey-bcg fixed w-full top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-20">
         <div className="flex items-center justify-between lg:px-10 h-16 w-full">
           <div className="flex items-center justify-between w-full">
@@ -19,7 +19,7 @@ const Navbar = () => {
                 Nacho Sala
               </a>
             </div>
-            <div className="hidden md:block float-right">
+            <div className="hidden md:block float-right poppins">
               <div className="ml-10 flex items-baseline space-x-4">
                 <a
                   href="#"
@@ -101,7 +101,7 @@ const Navbar = () => {
         leaveTo="opacity-0 scale-95"
       >
         {(ref) => (
-          <div className="md:hidden" id="mobile-menu">
+          <div className="md:hidden poppins" id="mobile-menu">
             <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               <a
                 href="#"
