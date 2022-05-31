@@ -2,17 +2,24 @@ import React from "react";
 
 const About = () => {
   return (
-    <section>
-      <h2>About me</h2>
-      <p>
-        I'm a highly motivated Software Engineer who loves to face challenges, work collaboratively with others, and learn new technologies.
-      </p>
-      <p>
-        I graduated as Information System Engineer in college, where I learned the basics of programming, mathematical and algorithmic thinking, software engineering, and project management. Now I built my path on being a remote Full-Stack Developer, focused on the back-end, but with intuition and good taste for the front-end.
-      </p>
-      <p>
-        I have an exceptional growth mindset. I'm a committed team player, always fostering good collaboration environments. I can be very positive and motivate others to achieve their goals too.
-      </p>
+    <section className="gray-bcg py-10 rounded-3xl px-20">
+      <h2 className="poppins text-5xl orange-clr about-title mb-5">About me</h2>
+      <div className="grid grid-cols-5 gap-4">
+        <div className="roboto-slab col-span-full md: col-span-3 text-lg">
+          <p className="my-2">
+            I'm a highly motivated Software Engineer who loves to face challenges, work collaboratively with others, and learn new technologies.
+          </p>
+          <p className="my-2">
+            I graduated as Information System Engineer in college, where I learned the basics of programming, mathematical and algorithmic thinking, software engineering, and project management. Now I built my path on being a remote Full-Stack Developer, focused on the back-end, but with intuition and good taste for the front-end.
+          </p>
+          <p className="my-2">
+            I have an exceptional growth mindset. I'm a committed team player, always fostering good collaboration environments. I can be very positive and motivate others to achieve their goals too.
+          </p>
+        </div>
+        <div className="col-span-full md: col-span-1">
+          <button>Get my Resume</button>
+        </div>
+      </div>
       <h3>Skills</h3>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         <div className="flex flex-col">

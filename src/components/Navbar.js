@@ -6,7 +6,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   
   return (
-    <nav className="grey-bcg fixed w-full top-0 z-50">
+    <nav className="gray-bcg fixed w-full top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-20">
         <div className="flex items-center justify-between lg:px-10 h-16 w-full">
           <div className="flex items-center justify-between w-full">
@@ -14,7 +14,7 @@ const Navbar = () => {
               <img className="h-14 w-auto" src={phoenix} alt="Phoenix" />
               <a
                 href="#"
-                className="orange-clr px-3 py-2 rounded-md text-xl font-medium lobster"
+                className="orange-clr navbar-title px-3 py-2 rounded-md text-xl font-medium lobster"
               >
                 Nacho Sala
               </a>

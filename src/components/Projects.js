@@ -63,19 +63,19 @@ const Projects = () => {
         src: 'https://nachosala.me/my-portfolio/images/projects/breaking-bad.png',
         alt: 'Project image',
       },
-      technologies: ['Bootstrap', 'Javascript'],
+      technologies: ['Bootstrap', 'JavaScript'],
       linkLive: 'https://wikitelmex.github.io/kanban-capstone/',
       linkSource: 'https://github.com/nachosala89/breaking-bad-app',
     },
   ];
   
   return (
-    <section className="green-bcg p-10 rounded-3xl">
-      <h2 className="poppins text-4xl">My recent works</h2>
+    <section className="green-bcg p-10 rounded-3xl px-20">
+      <h2 className="poppins text-5xl mb-10">My recent works</h2>
       <ul className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {projects.map((project) => (
-          <li key={project.id} className="my-4 relative h-96 rounded-2xl group roboto-slab">
-            <div className="project-image h-96 w-full group-hover:opacity-20 rounded-2xl" style={{ backgroundImage: `url(${project.image.src})` }} />
+          <li key={project.id} className="my-4 relative h-96 rounded-2xl group roboto-slab gray-bcg">
+            <div className="project-image h-96 w-full group-hover:opacity-5 rounded-2xl" style={{ backgroundImage: `url(${project.image.src})` }} />
             <div className="project-content h-3/4 p-4">
               <div className="flex-col justify-between h-full project-description relative hidden group-hover:flex text-white text-xl">
                 <p>{project.description}</p>
@@ -90,8 +90,8 @@ const Projects = () => {
               </div>
             </div>
             <div className="project-header relative h-1/4 z-20 white-bcg rounded-b-2xl">
-              <h2 className="bordo-clr text-3xl text-center font-bold pt-2">{project.name}</h2>
-              <ul className="flex justify-center mt-2 mx-5">
+              <h3 className="bordo-clr text-3xl text-center font-bold pt-2">{project.name}</h3>
+              <ul className="flex justify-center mt-3 mx-5">
                 {project.technologies.map((tech) => (
                   <li key={tech} className="rounded-lg text-xs text-white soft-green-bcg px-2 py-1 mx-1">
                     {tech}
